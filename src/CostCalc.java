@@ -13,7 +13,7 @@ public class CostCalc {
         }
 
     public static int countGates(String sopExpression){
-        int counter = 0;        //Or gate
+        int counter = 1;        //Or gate
         sopExpression = sopExpression.toLowerCase();
         for(String s : sopExpression.split("[+]")){
             counter+= 1; //This is the and gate
